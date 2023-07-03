@@ -41,17 +41,13 @@ This is a CRUD application developed using Django and HTML. It allows end-users 
 
 ## URLs
 
-- Register: `/register`
-- Login: `/login`
-- Activity Listing: `/activities`
-- Fetch More Activities: `/fetch-activities`
-- Edit Activity: `/activities/<activity_id>/edit`
-- Update Activity: `/activities/<activity_id>/update`
+- Register: `activity/register`
+- Login: `activity/login`
+- Activity Listing: `activity/activities`
+- Fetch More Activities: `activity/fetch-activities`
+- Edit Activity: `activity/edit/<activity_id>/`
+- Admin : `/admin`
 
-## Contribution
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+## Third Party services
+- Recaptcha - for captcha verification
+- Maelys - email service
